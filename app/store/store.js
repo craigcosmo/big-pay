@@ -7,7 +7,6 @@ import promise from 'redux-promise-middleware'
 import axios from 'axios'
 
 import mainReducer from 'mainReducer'
-// import logger from 'redux-diff-logger';
 
 let middleware;
 if (process.env.production) {

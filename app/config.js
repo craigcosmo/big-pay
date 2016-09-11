@@ -1,7 +1,7 @@
 const env = process.env.NODE_ENV
 
 let url = 'https://api.tfl.gov.uk/'
-if (env === 'production') url = ''
+if (env === 'production') url = 'https://api.tfl.gov.uk/'
 
 export default {
 	env: env,

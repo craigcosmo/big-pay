@@ -39,7 +39,7 @@ export default class Home extends React.Component {
 		const now = parseInt(Date.now()/1000) // number of seconds
 		const diff = future - now
 
-		if (diff > 0) { return parseInt(diff/60) + 'minutes' }
+		if (diff > 0) { return parseInt(diff/60) + ' minutes' }
 		if (diff === 0 ) {return 'now'}
 		if (diff < 0 ) {return 'passed'}
 	}	
