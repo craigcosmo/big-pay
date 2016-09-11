@@ -1,0 +1,48 @@
+.home {
+	width: 50%;
+	margin: 50px auto;
+	position: relative;
+	.hide{
+		display: none
+	}
+	ol li {
+		display: block;
+		padding: 5px 15px;
+		background-color: #55ACEE;
+		cursor: pointer;
+		color: #fff;
+		border-bottom: solid 1px #fff;
+		&:hover{
+			
+		}
+	}
+	form {
+		display: flex;
+		padding-bottom: 30px;
+	}
+	button{
+		background: #ccc;
+		padding: 0 20px;
+		height: 25px;
+		line-height: 25px;
+		border:none;
+		border-radius: 6px;
+		flex:1
+	}
+	input {
+		margin-right: 10px;
+		height: 25px;
+		line-height: 25px;
+		width: 70%;
+	}
+	.home-item {
+		.item {
+			display: flex;
+		}
+		span {
+			display: inline-block;
+			width: 50%;
+		}
+	}
+}
+

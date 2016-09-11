@@ -9,6 +9,7 @@ export default [
     'app/store',
     'app/action',
     'app/sass',
+    'app/sass/home',
     'app/constant',
     'app/reducer',
     'image',

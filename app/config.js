@@ -1,11 +1,10 @@
 const env = process.env.NODE_ENV
 
-let url = ''
+let url = 'https://api.tfl.gov.uk/'
 if (env === 'production') url = ''
 
 export default {
 	env: env,
-	submitBookingURL: url + 'bookings',
-	signInURL: url + 'shifts/sign_in',
-	signOutURL: url + 'shifts/sign_out',
+	stopsURL : 'https://api.tfl.gov.uk/line/<lineNumber>/route/sequence/outbound',
+	arrivalsURL: 'https://api.tfl.gov.uk/StopPoint/<stopPointId>/arrivals'
 }

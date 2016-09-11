@@ -30,7 +30,8 @@ export default {
     devServer: {
         contentBase: buildFolder,
         noInfo: true,
-        port: 5050
+        port: 5050,
+        historyApiFallback: true
     },
     module: {
         loaders: loaders

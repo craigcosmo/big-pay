@@ -5,6 +5,7 @@ import Page from 'Page'
 
 function mapStateToProps(state){
 	return{
+		home:state.home
 	}
 }
 function mapDispatchToProps(dispatch){
