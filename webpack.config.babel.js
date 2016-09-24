@@ -9,7 +9,7 @@ import path from 'path'
 let env = process.env.NODE_ENV;
 let sourceMap = 'source-map';
 let buildFolder = 'dist/development/';
-let publicPath = 'http://localhost:5050/'+buildFolder;
+let publicPath = 'http://localhost:4040/'+buildFolder;
 let extraScript = true;
 
 if (env === 'production') {
@@ -30,7 +30,7 @@ export default {
     devServer: {
         contentBase: buildFolder,
         noInfo: true,
-        port: 5050,
+        port: 4040,
         historyApiFallback: true
     },
     module: {
