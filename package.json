@@ -8,7 +8,6 @@
     "fix": "eslint --fix app",
     "build": "NODE_ENV=development webpack",
     "release": "NODE_ENV=production webpack -p",
-    
     "dev": "NODE_ENV=devserver nodemon --watch webpack.config.babel.js ./node_modules/.bin/webpack-dev-server --progress --inline --hot",
     "test": "webpack-dev-server --config webpack.test.config.babel.js"
   },
